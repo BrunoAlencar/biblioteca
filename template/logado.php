@@ -12,8 +12,8 @@
 
 
     </head>
-    <body>
-        <nav class="navbar navbar-default">
+    <body style="background: #2aabd2"> 
+        <nav class="navbar navbar-default" >
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -45,16 +45,16 @@
                         </li> -->
 
                     </ul>
-                    <!-- <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Login</a></li>
-                         </ul>  -->
+                     <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Logout</a></li>
+                         </ul> 
 
 
 
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
-      <?php include 'login.php';?>
+      <?php  include 'body.php';?>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
